@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Color;
 
 @interface ColorStore : NSObject
-
++ (ColorStore*)sharedStore;
+- (NSArray *)colors;
+- (Color *)NewColorWithName:(NSString*)n Red:(float)r Green:(float)g Blue:(float)b;
 @end

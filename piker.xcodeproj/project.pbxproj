@@ -21,6 +21,8 @@
 		FF9CB70E183BE32100A1E133 /* pikerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CB70D183BE32100A1E133 /* pikerTests.m */; };
 		FF9CB71A183BE3D800A1E133 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CB719183BE3D800A1E133 /* Color.m */; };
 		FF9CB71D183BE54800A1E133 /* ColorStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CB71C183BE54800A1E133 /* ColorStore.m */; };
+		FF9CB725183BEA4E00A1E133 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CB723183BEA4E00A1E133 /* MainViewController.m */; };
+		FF9CB726183BEA4E00A1E133 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9CB724183BEA4E00A1E133 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		FF9CB719183BE3D800A1E133 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 		FF9CB71B183BE54800A1E133 /* ColorStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorStore.h; sourceTree = "<group>"; };
 		FF9CB71C183BE54800A1E133 /* ColorStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorStore.m; sourceTree = "<group>"; };
+		FF9CB722183BEA4E00A1E133 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FF9CB723183BEA4E00A1E133 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FF9CB724183BEA4E00A1E133 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,7 @@
 		FF9CB6EE183BE32100A1E133 /* piker */ = {
 			isa = PBXGroup;
 			children = (
+				FF9CB71E183BEA0400A1E133 /* Controler */,
 				FF9CB717183BE3C200A1E133 /* Model */,
 				FF9CB6F7183BE32100A1E133 /* AppDelegate.h */,
 				FF9CB6F8183BE32100A1E133 /* AppDelegate.m */,
@@ -160,6 +166,16 @@
 				FF9CB71C183BE54800A1E133 /* ColorStore.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		FF9CB71E183BEA0400A1E133 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CB722183BEA4E00A1E133 /* MainViewController.h */,
+				FF9CB723183BEA4E00A1E133 /* MainViewController.m */,
+				FF9CB724183BEA4E00A1E133 /* MainViewController.xib */,
+			);
+			name = Controler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9CB6F3183BE32100A1E133 /* InfoPlist.strings in Resources */,
+				FF9CB726183BEA4E00A1E133 /* MainViewController.xib in Resources */,
 				FF9CB6FB183BE32100A1E133 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +277,7 @@
 				FF9CB71A183BE3D800A1E133 /* Color.m in Sources */,
 				FF9CB6F9183BE32100A1E133 /* AppDelegate.m in Sources */,
 				FF9CB6F5183BE32100A1E133 /* main.m in Sources */,
+				FF9CB725183BEA4E00A1E133 /* MainViewController.m in Sources */,
 				FF9CB71D183BE54800A1E133 /* ColorStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
