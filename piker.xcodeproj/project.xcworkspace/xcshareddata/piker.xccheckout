@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D40B052E-2091-4CFD-8FE8-105B106B4E8C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>piker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>47C60049-0421-4DF6-BEF7-93CE23077A1E</key>
+		<string>https://github.com/paluch/piker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>piker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>47C60049-0421-4DF6-BEF7-93CE23077A1E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/paluch/piker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>47C60049-0421-4DF6-BEF7-93CE23077A1E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>47C60049-0421-4DF6-BEF7-93CE23077A1E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>piker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
