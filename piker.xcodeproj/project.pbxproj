@@ -19,6 +19,8 @@
 		FF9CB704183BE32100A1E133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CB6EC183BE32100A1E133 /* UIKit.framework */; };
 		FF9CB70C183BE32100A1E133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9CB70A183BE32100A1E133 /* InfoPlist.strings */; };
 		FF9CB70E183BE32100A1E133 /* pikerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CB70D183BE32100A1E133 /* pikerTests.m */; };
+		FF9CB71A183BE3D800A1E133 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CB719183BE3D800A1E133 /* Color.m */; };
+		FF9CB71D183BE54800A1E133 /* ColorStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CB71C183BE54800A1E133 /* ColorStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		FF9CB709183BE32100A1E133 /* pikerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pikerTests-Info.plist"; sourceTree = "<group>"; };
 		FF9CB70B183BE32100A1E133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF9CB70D183BE32100A1E133 /* pikerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pikerTests.m; sourceTree = "<group>"; };
+		FF9CB718183BE3D800A1E133 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		FF9CB719183BE3D800A1E133 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		FF9CB71B183BE54800A1E133 /* ColorStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorStore.h; sourceTree = "<group>"; };
+		FF9CB71C183BE54800A1E133 /* ColorStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		FF9CB6EE183BE32100A1E133 /* piker */ = {
 			isa = PBXGroup;
 			children = (
+				FF9CB717183BE3C200A1E133 /* Model */,
 				FF9CB6F7183BE32100A1E133 /* AppDelegate.h */,
 				FF9CB6F8183BE32100A1E133 /* AppDelegate.m */,
 				FF9CB6FA183BE32100A1E133 /* Images.xcassets */,
@@ -142,6 +149,17 @@
 				FF9CB70A183BE32100A1E133 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9CB717183BE3C200A1E133 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CB718183BE3D800A1E133 /* Color.h */,
+				FF9CB719183BE3D800A1E133 /* Color.m */,
+				FF9CB71B183BE54800A1E133 /* ColorStore.h */,
+				FF9CB71C183BE54800A1E133 /* ColorStore.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9CB71A183BE3D800A1E133 /* Color.m in Sources */,
 				FF9CB6F9183BE32100A1E133 /* AppDelegate.m in Sources */,
 				FF9CB6F5183BE32100A1E133 /* main.m in Sources */,
+				FF9CB71D183BE54800A1E133 /* ColorStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
